@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://aidan.com.my/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://aidan.com.my/assets/images/og/home.png</image:loc>
+      <image:title>Aidan Group — Building the future with confidence.</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aidan.com.my/group/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://aidan.com.my/assets/images/og/group.png</image:loc>
+      <image:title>The Group — Aidan Group of Companies</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aidan.com.my/ventures/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://aidan.com.my/assets/images/og/ventures.png</image:loc>
+      <image:title>Ventures — Aidan Group of Companies</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aidan.com.my/people/culture/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://aidan.com.my/assets/images/og/culture.png</image:loc>
+      <image:title>Culture — Aidan Group of Companies</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aidan.com.my/people/career/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://aidan.com.my/assets/images/og/career.png</image:loc>
+      <image:title>Career — Aidan Group of Companies</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aidan.com.my/contact/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://aidan.com.my/assets/images/og/contact.png</image:loc>
+      <image:title>Contact — Aidan Group of Companies</image:title>
+    </image:image>
+  </url>
+</urlset>
