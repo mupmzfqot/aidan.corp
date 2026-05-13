@@ -161,7 +161,7 @@ def draw_og(slug, eyebrow, headline, subline):
 
     # Footer URL + accent line
     d.line([(80, H - 90), (W - 80, H - 90)], fill=(255, 255, 255, 80), width=1)
-    d.text((80, H - 70), "aidan.com.my", font=FONT_FOOT, fill=(255, 255, 255, 235))
+    d.text((80, H - 70), "aidan.my", font=FONT_FOOT, fill=(255, 255, 255, 235))
     d.text(
         (W - 80 - 220, H - 70),
         "Building tomorrow, together",
@@ -217,7 +217,7 @@ PAGES = [
         "slug": "contact",
         "eyebrow": "Get In Touch",
         "headline": "Let's build something together.",
-        "subline": "Kuala Lumpur, Malaysia · +603 4143 0572 · contact@aidan.com.my",
+        "subline": "Kuala Lumpur, Malaysia · +603 4143 0572 · contact@aidan.my",
     },
 ]
 

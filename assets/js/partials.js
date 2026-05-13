@@ -50,7 +50,7 @@
               <a href="https://www.facebook.com/aidangroupofcompanies" target="_blank" rel="noopener" aria-label="Facebook">
                 <svg class="ti" viewBox="0 0 24 24"><path d="M7 10v4h3v7h4v-7h3l1-4h-4V8a1 1 0 0 1 1-1h3V3h-3a5 5 0 0 0-5 5v2H7"/></svg>
               </a>
-              <a href="mailto:contact@aidan.com.my" aria-label="Email">
+              <a href="mailto:contact@aidan.my" aria-label="Email">
                 <svg class="ti" viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2zM3 7l9 6 9-6"/></svg>
               </a>
               <a href="tel:+60341430572" aria-label="Phone">
@@ -71,7 +71,7 @@
             <ul>
               <li><a href="${base}people/culture/index.html">Culture</a></li>
               <li><a href="${base}people/career/index.html">Career</a></li>
-              <li><a href="mailto:career@aidan.com.my">career@aidan.com.my</a></li>
+              <li><a href="mailto:career@aidan.my">career@aidan.my</a></li>
             </ul>
           </div>
           <div>
