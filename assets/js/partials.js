@@ -9,21 +9,21 @@
   const navHTML = `
     <nav class="nav" aria-label="Primary">
       <div class="nav-inner">
-        <a class="nav-brand" href="${base}index.html" aria-label="Aidan Group of Companies">
+        <a class="nav-brand" href="${base || './'}" aria-label="Aidan Group of Companies">
           <img src="${base}assets/images/logo-dark.png" alt="Aidan" />
         </a>
         <ul class="nav-links">
-          <li><a href="${base}index.html" data-key="home">Home</a></li>
-          <li><a href="${base}group/index.html" data-key="group">Group</a></li>
-          <li><a href="${base}ventures/index.html" data-key="ventures">Ventures</a></li>
+          <li><a href="${base || './'}" data-key="home">Home</a></li>
+          <li><a href="${base}group/" data-key="group">Group</a></li>
+          <li><a href="${base}ventures/" data-key="ventures">Ventures</a></li>
           <li class="nav-dropdown">
             <a href="#" data-key="people" aria-haspopup="true">People</a>
             <ul class="nav-dropdown-menu">
-              <li><a href="${base}people/culture/index.html" data-key="culture">Culture</a></li>
-              <li><a href="${base}people/career/index.html" data-key="career">Career</a></li>
+              <li><a href="${base}people/culture/" data-key="culture">Culture</a></li>
+              <li><a href="${base}people/career/" data-key="career">Career</a></li>
             </ul>
           </li>
-          <li><a href="${base}contact/index.html" class="nav-cta" data-key="contact">
+          <li><a href="${base}contact/" class="nav-cta" data-key="contact">
             Contact
             <svg class="ti" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a></li>
@@ -61,16 +61,16 @@
           <div>
             <h5>Company</h5>
             <ul>
-              <li><a href="${base}group/index.html">Group</a></li>
-              <li><a href="${base}ventures/index.html">Ventures</a></li>
-              <li><a href="${base}contact/index.html">Contact</a></li>
+              <li><a href="${base}group/">Group</a></li>
+              <li><a href="${base}ventures/">Ventures</a></li>
+              <li><a href="${base}contact/">Contact</a></li>
             </ul>
           </div>
           <div>
             <h5>People</h5>
             <ul>
-              <li><a href="${base}people/culture/index.html">Culture</a></li>
-              <li><a href="${base}people/career/index.html">Career</a></li>
+              <li><a href="${base}people/culture/">Culture</a></li>
+              <li><a href="${base}people/career/">Career</a></li>
               <li><a href="mailto:career@aidan.my">career@aidan.my</a></li>
             </ul>
           </div>
