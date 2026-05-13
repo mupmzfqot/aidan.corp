@@ -827,6 +827,7 @@ form.glass-form {
 @media (max-width: 980px) {
   .hero-grid, .page-header-inner, .contact-grid { grid-template-columns: 1fr; }
   .bento-card.span-6, .bento-card.span-4, .bento-card.span-8 { grid-column: span 12; }
+  .bento-card.span-3 { grid-column: span 6; }
   .stats-band { grid-template-columns: repeat(2, 1fr); }
   .footer-grid { grid-template-columns: 1fr 1fr; }
   .form-row { grid-template-columns: 1fr; }
